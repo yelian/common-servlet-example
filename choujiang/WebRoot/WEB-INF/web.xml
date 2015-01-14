@@ -74,7 +74,7 @@
   
   <servlet>
   	<servlet-name>upload</servlet-name>
-  	<servlet-class>me.choujiang.UploadPageServlet</servlet-class>
+  	<servlet-class>me.excel.servlet.UploadPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>upload</servlet-name>
@@ -83,7 +83,7 @@
   
   <servlet>
   	<servlet-name>upload-excel</servlet-name>
-  	<servlet-class>me.choujiang.UploadServlet</servlet-class>
+  	<servlet-class>me.excel.servlet.UploadServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>upload-excel</servlet-name>
@@ -92,7 +92,7 @@
   
   <servlet>
   	<servlet-name>eval</servlet-name>
-  	<servlet-class>me.choujiang.EvalServlet</servlet-class>
+  	<servlet-class>me.excel.servlet.EvalServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>eval</servlet-name>
