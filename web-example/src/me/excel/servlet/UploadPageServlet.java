@@ -9,6 +9,11 @@ import javax.servlet.http.HttpServletResponse;
 
 public class UploadPageServlet extends HttpServlet{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void doGet(HttpServletRequest req, HttpServletResponse resp){
 		try {
 			req.getRequestDispatcher("page/upload.jsp").forward(req, resp);
