@@ -84,4 +84,14 @@
     <servlet-name>eval</servlet-name>
     <url-pattern>/eval.htm</url-pattern>
   </servlet-mapping>
+  
+  <!-- javascript jsonp -->
+  <servlet>
+  	<servlet-name>jsonp</servlet-name>
+  	<servlet-class>me.jsoup.servlet.JsonpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>jsonp</servlet-name>
+  	<url-pattern>/jsoup.htm</url-pattern>
+  </servlet-mapping>
 </web-app>
