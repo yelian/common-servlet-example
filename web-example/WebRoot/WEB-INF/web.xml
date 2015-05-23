@@ -92,6 +92,6 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>jsonp</servlet-name>
-  	<url-pattern>/jsoup.htm</url-pattern>
+  	<url-pattern>/jsonp.htm</url-pattern>
   </servlet-mapping>
 </web-app>

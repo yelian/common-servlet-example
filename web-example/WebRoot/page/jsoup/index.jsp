@@ -17,6 +17,6 @@
             document.getElementById('divCustomers').innerHTML = html;
         }
     </script>
-    <script type="text/javascript" src="http://localhost:8080/web-example/jsoup.htm?jsonp=onCustomerLoaded"></script>
+    <script type="text/javascript" src="http://localhost:8080/web-example/jsonp.htm?jsonp=onCustomerLoaded"></script>
 </body>
 </html>
